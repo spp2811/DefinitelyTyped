@@ -80,6 +80,12 @@ interface BaseFieldProps {
      * component is a stateless function component.
      */
     withRef?: boolean;
+    
+    /**
+    * clear following error and pass the 'label' to component
+    * error TS2339: Property 'label' does not exist on type '(IntrinsicAttributes & IntrinsicClassAttributes<Field<GenericFieldHTMLAttributes>> & Readonly<{ c...'.
+    */
+    label?: string;
 }
 
 /**
